@@ -1,0 +1,175 @@
+Pontifícia Universidade Católica de Minas Gerais
+Instituto de Ciências Exatas e Informática
+Curso de Ciência da Computação
+Disciplina: Algoritmos e Estruturas de Dados I
+
+Atividade avaliativa 01
+
+Matrícula:
+Nome     :
+
+Instruções gerais
+
+- Desenvolver soluções para cada um dos enunciados abaixo,
+  segundo o modelo de programa no arquivo A202102_01a.c anexo.
+  O programa principal NÃO deverá ser alterado.
+
+- É permitida a consulta ao material disponível.
+
+- As soluções entregues serão verificadas e poderão ser
+  desconsideradas caso houver indicações de similaridade.
+
+- O tempo previsto para cada questão é de 25 minutos.
+  Um tempo adicional de mais 30 minutos será oferecido
+  em atendimento às solicitações apresentadas pelo NAI.
+
+- A entrega do exercício deverá ser feita pelo CANVAS.
+
+- Um primeiro envio será solicitado após 30 minutos
+  a partir do início para se verificar a compreensão
+  dos enunciados. Sugere-se usar o esboço de programa
+  para registrar, mediante comentários, 
+  os passos a serem refinados posteriormente e 
+  as expectativas de resultados para os testes.
+
+- Um segundo envio será solicitado às 10:30h
+  para acompanhar o desenvolvimento.
+  
+- Após o tempo adicional, até o encerramento do exercício, 
+  poderá haver mais outro envio com a solução definitiva.
+___
+
+Testes
+
+- Para compilar e testar manualmente
+
+       gcc -o A202102_01a A202102_01a
+       A202102_01a
+       
+- Para compilar e testar automaticamente
+
+       mk A202102_01a input_00.txt output_00.txt
+
+- Os valores usados para testes poderão ser informados no
+  arquivo com formato texto (editável) input_00.txt, com
+  um valor apenas em cada linha.
+- Os resultados produzidos poderão ser guardados no arquivo
+  com formato texto output_00.txt, conforme modelo anexo.
+- Outros arquivos com mais entradas ou saídas poderão ser
+  enviados, se usados, alterando a numeração (xx).
+
+___
+
+Enunciados
+
+01.) Questão
+FAZER um procedimento em C, o mais completo possível, para:
+- ler um valor inteiro ( N )
+  para indicar a quantidade máxima de termos usados;
+- ler um valor inteiro ( TETO )
+  para indicar certo limite;
+- calcular e mostrar:
+  a.) o resultado do somatório abaixo,
+      com o maior valor possível que não ultrapasse o teto:
+
+      1 + 5 + 6 + 10 + 11 + 15 + 16 +  ...
+
+  b.) a quantidade de termos somados para isso;
+
+  c.) se o teto será ultrapassado pela quantidade de termos,
+      ou não.
+
+- Verificar possibilidades de erros nos dados.
+
+  Exemplos:
+
+  1. N = 7
+     TETO = 50
+     resultados = 48 (6) [SIM]
+  2. N = 7
+     TETO = 75
+     resultados = 63 (7) [NAO]
+  3. N = 7
+     TETO = 15
+     resultados = 12 (3) [SIM]
+
+
+02.) Questão
+FAZER um procedimento em C, o mais completo possível, para:
+- ler dois números inteiros (X e Y);
+- dizer qual deles tem a maior quantidade de 
+  dígitos ímpares não múltiplos de 3 e, também, 
+  não terminar no algarismo 5.
+  
+  Exemplos:
+  1. X = 1
+     Y = 2
+     RESPOSTA = 1
+  2. X = 21
+     Y = 13
+     RESPOSTA = 13
+  3. X = 125
+     Y = 421
+     SEM RESPOSTA
+
+
+03.) Questão
+DEFINIR em C a função filtrar ( ) para:
+- receber uma cadeia de caracteres como parâmetro;
+- retornar outra cadeia de caracteres
+  com todas as vogais minúsculas substituídas por '_',
+  exceto se forem a primeira e a última das letras,
+  e também diferentes essas duas.
+
+  Exemplos:
+
+  1. chars s1 = filtrar ( "abacaxi" ); // s1 = "ab_c_xi"
+  2. chars s2 = filtrar ( "abacAxi" ); // s2 = "ab_cAxi"
+  3. chars s3 = filtrar ( "acerola" ); // s3 = "_c_r_l_"
+  4. chars s4 = filtrar ( "Acerola" ); // s4 = "Ac_r_la"
+
+
+04.) Questão
+CORRIGIR o programa abaixo para produzir respostas corretas
+conforme as previsões de resultados apresentadas abaixo:
+
+ int f ( int x, double y )
+ {
+       y = M_PI * pow ( x, 2 );
+       return ( 1.0/2.0  * y );
+ }
+
+ /*
+    Questao_04.
+
+    Exemplos:
+    x = 5
+
+    y = f ( 4 ) = 16.755161
+
+    y = f ( 3 ) = 9.424778
+
+    y = f ( 2 ) = 4.188790
+
+    y = f ( 1 ) = 1.047198
+
+    y = f ( 0 ) = 0.000000
+  */
+  void questao04 ( void )
+  {
+    int    x = 0;
+    int    y = 0;
+    bool   z = false;
+
+    scanf  ( "%d", x );
+    printf ( "\nx = %d\n", x );
+
+    do
+    {
+       x = x - 1;
+       f ( x, y );
+       printf ( "\ny = f ( %lf ) = %lf\n", x, y );
+       z = x != y;
+    }
+    while ( z );
+ }

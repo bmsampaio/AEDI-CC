@@ -1,0 +1,82 @@
+A01 - 999999 - ___
+Opcao = 1
+
+Questao_01
+
+N = 7 TETO = 50
+
+resultado = 0 (0) [SIM]
+
+Opcao = 1
+
+Questao_01
+
+N = 7 TETO = 75
+
+resultado = 0 (0) [SIM]
+
+Opcao = 1
+
+Questao_01
+
+N = 7 TETO = 15
+
+resultado = 0 (0) [SIM]
+
+Opcao = 2
+
+Questao_02
+
+X = 1 Y = 2
+
+RESPOSTA = 0
+
+Opcao = 2
+
+Questao_02
+
+X = 21 Y = 13
+
+RESPOSTA = 0
+
+Opcao = 2
+
+Questao_02
+
+X = 125 Y = 421
+
+RESPOSTA = 0
+
+Opcao = 3
+
+Questao_03
+
+Entrada = abacate
+
+Saida   = ?????
+
+Opcao = 3
+
+Questao_03
+
+Entrada = abacaxi
+
+Saida   = ?????
+
+Opcao = 3
+
+Questao_03
+
+Entrada = abacAxi
+
+Saida   = ?????
+
+Opcao = 3
+
+Questao_03
+
+Entrada = acerola
+
+Saida   = ?????
+
+Opcao = 0
