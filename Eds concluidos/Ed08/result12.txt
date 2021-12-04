@@ -1,0 +1,7 @@
+A quantidade de elementos e : 6
+Posicao 0 - elemento 1
+Posicao 1 - elemento 3
+Posicao 2 - elemento 5
+Posicao 3 - elemento 7
+Posicao 4 - elemento 9
+Posicao 5 - elemento 11

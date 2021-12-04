@@ -1,0 +1,6 @@
+A media dos numeros e 35.307693 
+O numero 81.00 esta acima da media
+O numero 98.00 esta acima da media
+O numero 45.00 esta acima da media
+O numero 75.00 esta acima da media
+O numero 89.00 esta acima da media

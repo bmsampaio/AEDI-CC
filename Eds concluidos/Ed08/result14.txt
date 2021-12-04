@@ -1,0 +1,15 @@
+O arranjo possui 13 posicoes.
+posicao 0 - elemento 9
+posicao 1 - elemento 5
+posicao 2 - elemento 6
+posicao 3 - elemento 12
+posicao 4 - elemento 2
+posicao 5 - elemento 81
+posicao 6 - elemento 4
+posicao 7 - elemento 7
+posicao 8 - elemento 98
+posicao 9 - elemento 45
+posicao 10 - elemento 26
+posicao 11 - elemento 75
+posicao 12 - elemento 89
+Menor numero do arranjo e 2

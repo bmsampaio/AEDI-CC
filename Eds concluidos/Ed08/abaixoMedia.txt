@@ -1,0 +1,9 @@
+A media dos numeros e 35.307693 
+O numero 9.00 esta abaixo da media
+O numero 5.00 esta abaixo da media
+O numero 6.00 esta abaixo da media
+O numero 12.00 esta abaixo da media
+O numero 2.00 esta abaixo da media
+O numero 4.00 esta abaixo da media
+O numero 7.00 esta abaixo da media
+O numero 26.00 esta abaixo da media

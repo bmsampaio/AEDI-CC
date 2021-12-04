@@ -1,0 +1,11 @@
+A quantidade de numeros gerados e : 9
+Os numeros percentem ao intervalo definido por {2, 59} 
+Posicao 0 - elemento 60
+Posicao 1 - elemento 48
+Posicao 2 - elemento 26
+Posicao 3 - elemento 39
+Posicao 4 - elemento 60
+Posicao 5 - elemento 17
+Posicao 6 - elemento 15
+Posicao 7 - elemento 16
+Posicao 8 - elemento 42
